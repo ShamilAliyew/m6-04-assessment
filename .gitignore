@@ -15,7 +15,4 @@ __pycache__/
 runs/
 
 # BUT keep best model
-!runs/
-!runs/cats_v1-3/
-!runs/cats_v1-3/weights/
 !runs/cats_v1-3/weights/best.pt
