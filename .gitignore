@@ -1,0 +1,21 @@
+# dataset
+data/
+
+# python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# ignore all runs
+runs/
+
+# BUT keep best model
+!runs/
+!runs/cats_v1-3/
+!runs/cats_v1-3/weights/
+!runs/cats_v1-3/weights/best.pt
